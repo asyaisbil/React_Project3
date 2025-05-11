@@ -27,7 +27,7 @@ export default function Products(props) {
     <div className="main-area">
        <h2>{category.toUpperCase()}</h2> 
       <div className="products-container">
-        <ProductList products={products} category = {category}/>
+        <ProductList products={products}/>
       </div>
     </div>
   );
